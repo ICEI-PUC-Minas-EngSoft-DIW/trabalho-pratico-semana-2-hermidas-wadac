@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #d3d3d3;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 24px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+/* Menu de navegação */
+.navbar {
+    background: #0077b6;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border: 2px solid #0077b6;
+}
+
+/* Títulos */
+h1 {
+    font-size: 29px;
+    color: #0077b6;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 15px 0 8px;
+    color: #023e8a;
+    border-bottom: 1px solid #0077b6;
+    display: inline-block;
+}
+
+/* Listas */
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #555;
+}
